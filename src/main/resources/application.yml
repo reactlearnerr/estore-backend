@@ -1,0 +1,59 @@
+spring:
+  security:
+    user:
+      name: prithvi
+      password: passw0rd
+#      role: ADMIN
+  profiles:
+    
+    active: dev
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+#      ddl-auto: validate
+  liquibase:
+    enabled: true
+  application:
+    name: estore-backend
+  datasource:
+     url: jdbc:postgresql://localhost:5432/ecommdb
+     password: root
+     driver-class-name: org.postgresql.Driver
+     username: postgres
+     dialect: org.hibernate.dialect.PostgreSQL10Dialect
+server:
+  port: 8001
+management:
+  endpoints:
+    # HEALTH ENDPOINT
+    health:
+      show-details: always
+    web:
+      exposure:
+        include:
+          - health
+          - info
+      base-path: /app-check
+
+# Configuration of Actuator info endpoint
+info:
+  project:
+    name: shopitup
+    team: ps-tech
+    env: dev-toolkit
+# swagger-ui custom path
+spring-doc:
+  swagger-ui.path: /swagger-ui.html
+
+#    Username: postgres
+#      Password: cc7fdd241b04772ff319a9137b16800a1872b00e94dc32e4
+#      Hostname: lively-wave-6589-db.internal
+#      Proxy Port: 5432
+#      PG Port: 5433
+logging:
+  level:
+    #    root: debug
+    #    org.springframework.web: debug
+    org:
+      hibernate: debug

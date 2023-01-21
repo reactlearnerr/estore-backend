@@ -1,0 +1,1265 @@
+export const storeRequest = {
+  storeName: "US Store",
+  currencyCode: "USD",
+  identifier: "usstore",
+};
+
+export const productsJson = [
+  {
+    "productId": "192594",
+    "productName": "Solids: Red Camo (Active Wear)",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Essential Drop Cut T-Shirts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 1173,
+    "prodType": 3,
+    "offerPrice": 599,
+    "exclusivePrice": 549.0,
+    "sortOrder": 240,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664641598/ecommerce/souledstore/1659691356/1659691356_2889626.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664641490/ecommerce/souledstore/1659691356/1659691356_8003051.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664641459/ecommerce/souledstore/1659691356/1659691356_1803549.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664641381/ecommerce/souledstore/1659691356/1659691356_6319493.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664641320/ecommerce/souledstore/1659691356/1659691356_1570690.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664641355/ecommerce/souledstore/1659691356/1659691356_5469505.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[],\"female\":[\"1659691356_1570690.jpg\",\"1659691356_5469505.jpg\",\"1659691356_6319493.jpg\",\"1659691356_1803549.jpg\",\"1659691356_8003051.jpg\",\"1659691356_2889626.jpg\",\"1662548151_3131229.jpg\"]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "solids-red-camo-active-wear-drop-cut-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "186715",
+    "productName": "The Flash: Logo",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 1319,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 605,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664641699/ecommerce/souledstore/1649343061/1649343061_7728847.gif;https://res.cloudinary.com/cloud-lib/image/upload/v1664641722/ecommerce/souledstore/1649343061/1649343061_8544428.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664643054/ecommerce/souledstore/1649343061/1649343061_2427845.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664643070/ecommerce/souledstore/1649343061/1649343061_3837918.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664643084/ecommerce/souledstore/1649343061/1649343061_9713984.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664643099/ecommerce/souledstore/1649343061/1649343061_3871159.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649343061_7728847.gif\",\"1649343061_8544428.jpg\",\"1649343061_2427845.jpg\",\"1649343061_3837918.jpg\",\"1649343061_9713984.jpg\",\"1649343061_3871159.jpg\",\"1662547832_2595178.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "tss-athletic-dept-flash-logo-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "200969",
+    "productName": "Black Panther: Run Forever",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Running Shorts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 332,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 815,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664644634/ecommerce/souledstore/1663223522/1663223522_1161722.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644617/ecommerce/souledstore/1663223522/1663223522_6144146.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644607/ecommerce/souledstore/1663223522/1663223522_4284127.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644444/ecommerce/souledstore/1663223522/1663223522_1561352.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644327/ecommerce/souledstore/1663223522/1663223522_8618894.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644314/ecommerce/souledstore/1663223522/1663223522_7514836.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1663223522_7514836.jpg\",\"1663223522_8618894.jpg\",\"1663223522_1561352.jpg\",\"1663223522_4284127.jpg\",\"1663223522_6144146.jpg\",\"1663223522_1161722.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "black-panther-run-forever-men-running-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "188937",
+    "productName": "Captain America: Super Soldier",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Running Shorts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 1293,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 1045,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664645972/ecommerce/souledstore/1662395516/1662395516_3167653.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645956/ecommerce/souledstore/1662395516/1662395516_2811984.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645946/ecommerce/souledstore/1662395516/1662395516_9757569.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645930/ecommerce/souledstore/1662395516/1662395516_2930043.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645915/ecommerce/souledstore/1662395516/1662395516_6362368.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644673/ecommerce/souledstore/1662395516/1662396019_1555955.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1662396019_1555955.jpg\",\"1662395516_6362368.jpg\",\"1662395516_2930043.jpg\",\"1662395516_9757569.jpg\",\"1662395516_2811984.jpg\",\"1662395516_3167653.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "captain-america-super-soldier-mens-running-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "186689",
+    "productName": "Solids: Black",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Running Shorts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 959,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 1205,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664646303/ecommerce/souledstore/1649394287/1649394287_8068542.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646319/ecommerce/souledstore/1649394287/1649394287_4600459.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646334/ecommerce/souledstore/1649394287/1649394287_3509357.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646347/ecommerce/souledstore/1649394287/1649394287_2908876.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646362/ecommerce/souledstore/1649394287/1649394287_1701679.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646377/ecommerce/souledstore/1649394287/1649394287_7197564.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664646394/ecommerce/souledstore/1649394287/1649394287_1292311.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649394287_8068542.jpg\",\"1649394287_4600459.jpg\",\"1649394287_3509357.jpg\",\"1649394287_2908876.jpg\",\"1649394287_1701679.jpg\",\"1649394287_7197564.jpg\",\"1649394287_1292311.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-solids-black-mens-running-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "201112",
+    "productName": "Captain America: Navy Performa",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 366,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 1330,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664648803/ecommerce/souledstore/1661602698/1661602713_1797624.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648791/ecommerce/souledstore/1661602698/1661602713_2241926.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648780/ecommerce/souledstore/1661602698/1661602713_4043720.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648780/ecommerce/souledstore/1661602698/1661602713_4043720.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664647740/ecommerce/souledstore/1661602698/1661602698_2789823.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664647657/ecommerce/souledstore/1661602698/1661758408_2689647.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1661758408_2689647.jpg\",\"1661602698_8479235.jpg\",\"1661602698_2789823.jpg\",\"1661602713_4043720.jpg\",\"1661602713_2241926.jpg\",\"1661602713_1797624.jpg\",\"1662548192_8945194.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "captain-america-navy-performa-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "201114",
+    "productName": "TSS Active: Easy Black",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Vests"
+    },
+    "basePrice": 699.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 335,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 1340,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664648895/ecommerce/souledstore/1662180488/1662180488_3928199.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648881/ecommerce/souledstore/1662180488/1662180488_8764066.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648872/ecommerce/souledstore/1662180488/1662180488_2616259.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1662180488_3928199.jpg\",\"1662180488_8764066.jpg\",\"1662180488_2616259.jpg\",\"1662553524_6608005.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-easy-black-mens-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "202600",
+    "productName": "Superman: Hope",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 532,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 1680,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664648958/ecommerce/souledstore/1663418714/1663418714_8930690.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648974/ecommerce/souledstore/1663418714/1663418714_5627978.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648987/ecommerce/souledstore/1663418714/1663418714_8128926.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664648998/ecommerce/souledstore/1663418714/1663418714_3340998.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649007/ecommerce/souledstore/1663418714/1663418714_9711636.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1663418714_8930690.jpg\",\"1663418714_5627978.jpg\",\"1663418714_8128926.jpg\",\"1663418714_3340998.jpg\",\"1663418714_9711636.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "superman-hope-men-performance-vests",
+    "tiptiles": null
+  },
+  {
+    "productId": "188936",
+    "productName": "Solids: Navy Red Ombre",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Essential Drop Cut T-Shirts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 832,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 549.0,
+    "sortOrder": 1755,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664649105/ecommerce/souledstore/1649394769/1649394769_2311192.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649089/ecommerce/souledstore/1649394769/1649394769_5286695.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649079/ecommerce/souledstore/1649394769/1649394769_4600423.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649066/ecommerce/souledstore/1649394769/1649394769_7299857.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649936843_3039470.jpg\",\"1649394769_7299857.jpg\",\"1649394769_4600423.jpg\",\"1649394769_5286695.jpg\",\"1649394769_2311192.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "solids-navy-red-ombre-mens-performance-essential-drop-cut-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "186684",
+    "productName": "Spider-Man: The Suit",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 432,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 1860,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664649148/ecommerce/souledstore/1649395158/1649395158_1025065.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649160/ecommerce/souledstore/1649395158/1649395158_1510097.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649173/ecommerce/souledstore/1649395158/1649395158_6112063.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649183/ecommerce/souledstore/1649395158/1649395158_8514706.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649195/ecommerce/souledstore/1649395158/1649395158_2704669.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649208/ecommerce/souledstore/1649395158/1649395158_2970535.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649395158_1025065.jpg\",\"1649395158_1510097.jpg\",\"1649395158_6112063.jpg\",\"1649395158_8514706.jpg\",\"1649395158_2704669.jpg\",\"1649395158_2970535.jpg\",\"1662548391_9911789.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "tss-athletic-dept-spiderman-the-suit-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "186690",
+    "productName": "Solids: Black",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Enduro Joggers"
+    },
+    "basePrice": 1499.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 407,
+    "prodType": 3,
+    "offerPrice": 1299.0,
+    "exclusivePrice": 1149.0,
+    "sortOrder": 2095,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664649496/ecommerce/souledstore/1659540714/1659540714_7832809.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649409/ecommerce/souledstore/1659540714/1659540714_9982121.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659540714_9982121.jpg\",\"1649762421_7832809.jpg\",\"1649762429_1259039.jpg\",\"1649762435_3926566.jpg\",\"1649762443_7419839.jpg\",\"1649762450_3096374.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-solids-black-mens-enduro-joggers",
+    "tiptiles": null
+  },
+  {
+    "productId": "201110",
+    "productName": "Avengers:  Assemble Grey",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 293,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 2110,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664649551/ecommerce/souledstore/1659792433/1659792433_1366775.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649608/ecommerce/souledstore/1659792433/1659792433_5656969.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649596/ecommerce/souledstore/1659792433/1659792433_1898136.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659792433_1366775.jpg\",\"1660021823_8474834.jpg\",\"1659792433_1898136.jpg\",\"1659792433_5656969.jpg\",\"1660021828_7595924.jpg\",\"1662548346_9849895.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "avengers-assemble-grey-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "190196",
+    "productName": "Batman: Logo",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Compression T-Shirts"
+    },
+    "basePrice": 1099.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 536,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 2295,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664650359/ecommerce/souledstore/1650876739/1650876739_5503168.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650328/ecommerce/souledstore/1650876739/1650876739_7160949.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650264/ecommerce/souledstore/1650876739/1650876739_3488364.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650190/ecommerce/souledstore/1650876739/1650876739_9358063.gif;https://res.cloudinary.com/cloud-lib/image/upload/v1664650155/ecommerce/souledstore/1650876739/1650876739_7595924.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649966/ecommerce/souledstore/1650876739/1650876739_4098090.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649886/ecommerce/souledstore/1650876739/1650876739_5425532.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1650876690_7614286.jpg\",\"1650876703_9358063.gif\",\"1650876719_4098090.jpg\",\"1650876739_5425532.jpg\",\"1650876756_3488364.jpg\",\"1650876774_7160949.jpg\",\"1650876790_5503168.jpg\",\"1662552592_6885901.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "batman-logo-men-compression-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "200907",
+    "productName": "TSS Active: Go Grey",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Enduro Joggers"
+    },
+    "basePrice": 1499.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 474,
+    "prodType": 3,
+    "offerPrice": 999.0,
+    "exclusivePrice": 949.0,
+    "sortOrder": 2390,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664649299/ecommerce/souledstore/1663067118/1663067118_2855336.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649290/ecommerce/souledstore/1663067118/1663067118_6254489.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649277/ecommerce/souledstore/1663067118/1663067118_8007475.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664649267/ecommerce/souledstore/1663067118/1663067118_4050389.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1664183627_9214937.jpg\",\"1663067118_4050389.jpg\",\"1663067118_8007475.jpg\",\"1663067118_6254489.jpg\",\"1663067118_2855336.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-go-grey-men-enduro-joggers",
+    "tiptiles": null
+  },
+  {
+    "productId": "201111",
+    "productName": "Black Panther: Sprint",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 91,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 799.0,
+    "sortOrder": 2450,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664650525/ecommerce/souledstore/1659186057/1659186057_8024936.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650515/ecommerce/souledstore/1659186057/1659186057_8788725.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650502/ecommerce/souledstore/1659186057/1659186057_4752637.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650487/ecommerce/souledstore/1659186057/1659186057_7794788.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650463/ecommerce/souledstore/1659186057/1659186057_6827358.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659186057_6827358.jpg\",\"1659186057_7794788.jpg\",\"1659186057_4752637.jpg\",\"1659186057_8788725.jpg\",\"1659186057_8024936.jpg\",\"1662548241_9399851.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "black-panther-super-runners-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "188930",
+    "productName": "Captain America: Camo",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 23,
+    "prodType": 3,
+    "offerPrice": 649.0,
+    "exclusivePrice": 549.0,
+    "sortOrder": 2990,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664650759/ecommerce/souledstore/1649342465/1649342465_2768092.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650605/ecommerce/souledstore/1649342465/1649342465_2220636.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650664/ecommerce/souledstore/1649342465/1649342465_3838719.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650693/ecommerce/souledstore/1649342465/1649342465_3766230.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650728/ecommerce/souledstore/1649342465/1649342465_3483548.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649342465_2220636.jpg\",\"1649342465_3838719.jpg\",\"1649342465_3766230.jpg\",\"1649342465_3483548.jpg\",\"1649342465_2768092.jpg\",\"1662551866_5948399.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "captain-america-camo-mens-performance-essential-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "188931",
+    "productName": "Iron Man: Armour Up (Active Wear)",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 670,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 3195,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664650811/ecommerce/souledstore/1656783503/1656783503_9973069.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650825/ecommerce/souledstore/1656783503/1656783503_6892344.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650838/ecommerce/souledstore/1656783503/1656783503_9879221.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650854/ecommerce/souledstore/1656783503/1656783503_3337149.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650917/ecommerce/souledstore/1656783503/1656783503_2807691.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650938/ecommerce/souledstore/1656783503/1656783503_8641808.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664650972/ecommerce/souledstore/1656783503/1656783503_1752660.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1656783503_9973069.jpg\",\"1656783503_6892344.jpg\",\"1656783503_9879221.jpg\",\"1656783503_3337149.jpg\",\"1656783529_2807691.jpg\",\"1656783529_8641808.jpg\",\"1656783543_1752660.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "iron-man-armour-up-active-wear-mens-performance-essential-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "200908",
+    "productName": "TSS Active: Black Mel",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Enduro Joggers"
+    },
+    "basePrice": 1499.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 761,
+    "prodType": 3,
+    "offerPrice": 999.0,
+    "exclusivePrice": 949.0,
+    "sortOrder": 3375,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651080/ecommerce/souledstore/1664183555/1664183555_4771780.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651059/ecommerce/souledstore/1664183555/1664183555_4630538.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651045/ecommerce/souledstore/1664183555/1664183555_9840544.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651045/ecommerce/souledstore/1664183555/1664183555_9840544.jpghttps://res.cloudinary.com/cloud-lib/image/upload/v1664651005/ecommerce/souledstore/1664183555/1664183555_8323497.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1664183555_8323497.jpg\",\"1663166896_2326583.jpg\",\"1663166896_9840544.jpg\",\"1663166896_4630538.jpg\",\"1663166896_4771780.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-black-mel-men-enduro-joggers",
+    "tiptiles": null
+  },
+  {
+    "productId": "192306",
+    "productName": "Iron Man: Power Up",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Compression T-Shirts"
+    },
+    "basePrice": 1099.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 394,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 3390,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651169/ecommerce/souledstore/1655462107/1655462107_2070409.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651232/ecommerce/souledstore/1655462107/1659788272_4523145.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651359/ecommerce/souledstore/1655462107/1654951744_7908455.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651379/ecommerce/souledstore/1655462107/1654951744_8968776.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1655462107_2070409.jpg\",\"1659788272_4523145.jpg\",\"1654951744_7908455.jpg\",\"1662552575_8968776.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "iron-man-power-up-men-compression-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "200970",
+    "productName": "TSS Active: Avengers Black",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Running Shorts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 188,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 3450,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651455/ecommerce/souledstore/1659793841/1659793841_9709951.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651455/ecommerce/souledstore/1659793841/1659793841_9709951.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651427/ecommerce/souledstore/1659793841/1659793841_8054561.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651412/ecommerce/souledstore/1659793841/1659793841_7398791.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659793841_7398791.jpg\",\"1659793841_8054561.jpg\",\"1659793841_3742685.jpg\",\"1659793841_9709951.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-awesome-black-men-running-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "190189",
+    "productName": "Avengers: Initiative",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 188,
+    "prodType": 3,
+    "offerPrice": 699.0,
+    "exclusivePrice": 599.0,
+    "sortOrder": 3685,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651513/ecommerce/souledstore/1649753935/1649753935_7272710.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651579/ecommerce/souledstore/1649753935/1649753935_3687980.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651588/ecommerce/souledstore/1649753935/1649753935_6213076.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651599/ecommerce/souledstore/1649753935/1649753935_5682736.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651613/ecommerce/souledstore/1649753935/1649753935_1847122.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651633/ecommerce/souledstore/1649753935/1649753935_3750487.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649753935_7272710.jpg\",\"1649753935_3687980.jpg\",\"1649753935_6213076.jpg\",\"1649753935_5682736.jpg\",\"1649753935_1847122.jpg\",\"1652248090_3750487.jpg\",\"1662551467_4169827.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "avengers-initiative-men-performance-essential-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "190190",
+    "productName": "Black Panther: Wakanda Forever",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 618,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 3765,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651676/ecommerce/souledstore/1653896206/1653896206_7620365.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651689/ecommerce/souledstore/1653896206/1653896206_3606699.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651701/ecommerce/souledstore/1653896206/1653896206_1273726.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651712/ecommerce/souledstore/1653896206/1653896206_7208875.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651727/ecommerce/souledstore/1653896206/1653896206_9520875.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651742/ecommerce/souledstore/1653896206/1653896206_4050957.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651752/ecommerce/souledstore/1653896206/1653896206_8954277.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1653896206_7620365.jpg\",\"1653896206_3606699.jpg\",\"1653896206_1273726.jpg\",\"1653896206_7208875.jpg\",\"1653896206_9520875.jpg\",\"1653896206_4050957.jpg\",\"1653896206_8954277.jpg\",\"1662547769_4843149.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "black-panther-wakanda-forever-men-performance-essential-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "187005",
+    "productName": "Spider-Man: The Suit",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Base Layer"
+    },
+    "basePrice": 1299.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 650,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 4180,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664651880/ecommerce/souledstore/1649776862/1649776862_4550161.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651897/ecommerce/souledstore/1649776862/1649776862_1649776870_6897930.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651916/ecommerce/souledstore/1649776862/1649776862_1649776877_5236993.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651930/ecommerce/souledstore/1649776862/1649776862_1649776884_2225154.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664651941/ecommerce/souledstore/1649776862/1649776862_1649776891_9639231.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649776862_4550161.jpg\",\"1649776870_6897930.jpg\",\"1649776877_5236993.jpg\",\"1649776884_2225154.jpg\",\"1649776891_9639231.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "spiderman-the-suit-men-base-layer",
+    "tiptiles": null
+  },
+  {
+    "productId": "186562",
+    "productName": "Solids: Brick Red",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 109,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4310,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664652022/ecommerce/souledstore/1649394631/1649394631_2906681.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652045/ecommerce/souledstore/1649394631/1649394631_6557052.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652060/ecommerce/souledstore/1649394631/1649394631_8355993.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652070/ecommerce/souledstore/1649394631/1649394631_1009026.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652081/ecommerce/souledstore/1649394631/1649394631_9986914.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649394631_2906681.jpg\",\"1649394631_6557052.jpg\",\"1649394631_8355993.jpg\",\"1649394631_1009026.jpg\",\"1649394631_9986914.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "tss-athletic-dept-solids-brick-red-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "199424",
+    "productName": "TSS Originals: Camo Print",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Jerseys"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 565,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4380,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664652805/ecommerce/souledstore/1657943429/1657943429_5329276.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652178/ecommerce/souledstore/1657943429/1657943429_6640629.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652789/ecommerce/souledstore/1657943429/1657943429_7206492.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652826/ecommerce/souledstore/1657943429/1657943429_9413592.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652838/ecommerce/souledstore/1657943429/1657943429_3964961.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1657943429_3964961.jpg\",\"1657943429_9413592.jpg\",\"1657943429_5329276.jpg\",\"1657943429_7206492.jpg\",\"1657943429_6640629.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-originals-camo-print-jersey",
+    "tiptiles": null
+  },
+  {
+    "productId": "186575",
+    "productName": "Marvel: Iron Man",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 250,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4385,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664653036/ecommerce/souledstore/1649341913/1649341913_2874796.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653027/ecommerce/souledstore/1649341913/1649341913_1219129.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653016/ecommerce/souledstore/1649341913/1649341913_3581941.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653007/ecommerce/souledstore/1649341913/1649341913_3966382.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652987/ecommerce/souledstore/1649341913/1649341913_1688657.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649341913_1688657.jpg\",\"1649341913_3966382.jpg\",\"1649341913_3581941.jpg\",\"1649341913_1219129.jpg\",\"1649341913_2874796.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-marvel-iron-man-mens-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "192592",
+    "productName": "Marvel: The Mighty Thor",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 268,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4390,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664653808/ecommerce/souledstore/1652692945/7028027.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653763/ecommerce/souledstore/1652692945/1652692945_3835551.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653747/ecommerce/souledstore/1652692945/1652692945_9840364.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1652692945_9840364.jpg\",\"1652692945_3835551.jpg\",\"1652692955_7028027.jpg\",\"1662553733_2727851.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "marvel-the-mighty-thor-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "192593",
+    "productName": "Marvel: Logo",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 442,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4415,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664653323/ecommerce/souledstore/1651818141/1651818141_8226395.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653423/ecommerce/souledstore/1651818141/1651818141_1791582.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653528/ecommerce/souledstore/1651818141/1651818141_1223725.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653566/ecommerce/souledstore/1651818141/1651818141_3426644.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653580/ecommerce/souledstore/1651818141/1651818141_7851536.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1651818141_8226395.jpg\",\"1651818141_1791582.jpg\",\"1651818141_1223725.jpg\",\"1651818141_3426644.jpg\",\"1651818141_7851536.jpg\",\"1662553709_7393409.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "marvel-logo-mens-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "201177",
+    "productName": "Solids: Grey",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Knit Jackets"
+    },
+    "basePrice": 1999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 105,
+    "prodType": 3,
+    "offerPrice": 1599.0,
+    "exclusivePrice": 1499.0,
+    "sortOrder": 4515,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664653987/ecommerce/souledstore/1658986230/1658986230_7955424.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653851/ecommerce/souledstore/1658986230/1658986230_9962691.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664653964/ecommerce/souledstore/1658986230/1658986230_1786760.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654003/ecommerce/souledstore/1658986230/1658986230_7328526.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659788381_1253880.jpg\",\"1658986230_9962691.jpg\",\"1658986230_1786760.jpg\",\"1658986230_7955424.jpg\",\"1658986230_7328526.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-hoodsome-grey-men-knit-jacket",
+    "tiptiles": null
+  },
+  {
+    "productId": "190191",
+    "productName": "Superman: Logo",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 397,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4695,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654121/ecommerce/souledstore/1648886404/1648886404_9975196.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654109/ecommerce/souledstore/1648886404/1648886404_6895816.jpghttps://res.cloudinary.com/cloud-lib/image/upload/v1664654099/ecommerce/souledstore/1648886404/1648886404_1724531.jpg,','https://res.cloudinary.com/cloud-lib/image/upload/v1664654084/ecommerce/souledstore/1648886404/1648886404_5789031.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1652508024_7159980.jpg\",\"1648886404_5789031.jpg\",\"1648886404_1724531.jpg\",\"1648886404_6895816.jpg\",\"1648886404_9975196.jpg\",\"1652248349_9273666.jpg\",\"1662552033_4659011.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "superman-logo-men-performance-essential-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "188939",
+    "productName": "Iron Man: Stark Industries",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Performance Shorts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 335,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 4725,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654299/ecommerce/souledstore/1648121136/1648121136_3275119.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654288/ecommerce/souledstore/1648121136/1648121136_2359365.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654278/ecommerce/souledstore/1648121136/1648121136_3486631.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654268/ecommerce/souledstore/1648121136/1648121136_6525160.jpghttps://res.cloudinary.com/cloud-lib/image/upload/v1664654252/ecommerce/souledstore/1648121136/1648121136_6214084.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654217/ecommerce/souledstore/1648121136/1648121136_3436930.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1648121136_3436930.jpg\",\"1648121136_6214084.jpg\",\"1648121136_6525160.jpg\",\"1648121136_3486631.jpg\",\"1648121136_2359365.jpg\",\"1648121136_3275119.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "iron-man-stark-industries-mens-performance-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "186685",
+    "productName": "TSS: Athletic Dept",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 162,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 5150,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654567/ecommerce/souledstore/1649395631/1649395631_3034805.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654556/ecommerce/souledstore/1649395631/1649395631_8257580.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654546/ecommerce/souledstore/1649395631/1649395631_2957427.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654534/ecommerce/souledstore/1649395631/1649395631_5214698.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1653130957_1885111.jpg\",\"1649395631_3034805.jpg\",\"1649395631_8257580.jpg\",\"1649395631_2957427.jpg\",\"1649395631_5214698.jpg\",\"1662551797_4080063.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "188938",
+    "productName": "Marvel: Comic Strip",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Performance Shorts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 89,
+    "prodType": 3,
+    "offerPrice": 799.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 5155,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664652893/ecommerce/souledstore/1650968066/1650968066_3670385.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652905/ecommerce/souledstore/1650968066/1650968066_2921931.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652922/ecommerce/souledstore/1650968066/1650968066_6838004.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652932/ecommerce/souledstore/1650968066/1650968066_9512862.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652942/ecommerce/souledstore/1650968066/1650968066_9264584.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652953/ecommerce/souledstore/1650968066/1650968066_4006225.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664652967/ecommerce/souledstore/1650968066/1650968066_2625340.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1650968066_3670385.jpg\",\"1650968066_2921931.jpg\",\"1650968066_6838004.jpg\",\"1650968066_9512862.jpg\",\"1650968066_9264584.jpg\",\"1650968066_4006225.jpg\",\"1650968066_2625340.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "marvel-comic-strip-mens-performance-shorts",
+    "tiptiles": null
+  },
+  {
+    "productId": "201178",
+    "productName": "Solids: Black",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Knit Jackets"
+    },
+    "basePrice": 1999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 58,
+    "prodType": 3,
+    "offerPrice": 1599.0,
+    "exclusivePrice": 1499.0,
+    "sortOrder": 5495,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654783/ecommerce/souledstore/1659186473/1659186473_9806069.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654795/ecommerce/souledstore/1659186473/1659186473_7357575.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654804/ecommerce/souledstore/1659186473/1659186473_7692297.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654817/ecommerce/souledstore/1659186473/1659186473_2112764.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659186473_9806069.jpg\",\"1659186473_7357575.jpg\",\"1659186473_7692297.jpg\",\"1659186473_2112764.jpg\",\"1659186485_5711296.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-active-hoodsome-black-men-knit-jacket",
+    "tiptiles": null
+  },
+  {
+    "productId": "186563",
+    "productName": "Captain America: Shield",
+    "artist": {
+      "name": "Marvel\u0099",
+      "slug": "marvel-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 461,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 7170,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654900/ecommerce/souledstore/1649342204/1649342204_3807898.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654922/ecommerce/souledstore/1649342204/1649342204_5645661.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654940/ecommerce/souledstore/1649342204/1649342204_9164039.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654950/ecommerce/souledstore/1649342204/1649342204_6005968.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1652508543_5270741.jpg\",\"1649342204_3807898.jpg\",\"1649342204_5645661.jpg\",\"1649342204_9164039.jpg\",\"1649342204_6005968.jpg\",\"1662551711_1864592.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "tss-athletic-dept-captain-america-shield-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "186691",
+    "productName": "Solids: Navy",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Enduro Joggers"
+    },
+    "basePrice": 1499.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 85,
+    "prodType": 3,
+    "offerPrice": 1199.0,
+    "exclusivePrice": 1129.0,
+    "sortOrder": 7465,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654345/ecommerce/souledstore/1649763374/1649763374_9670227.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654332/ecommerce/souledstore/1649763374/1649763374_8310696.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654319/ecommerce/souledstore/1649763374/1649763374_6163076.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1659540595_6243342.jpg\",\"1649763374_8214034.jpg\",\"1649763374_5794551.jpg\",\"1649763374_9670227.jpg\",\"1649763374_8310696.jpg\",\"1649763374_6163076.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-solids-navy-mens-enduro-joggers",
+    "tiptiles": null
+  },
+  {
+    "productId": "188942",
+    "productName": "Superman: Logo",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 44,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 7735,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654426/ecommerce/souledstore/1649395555/1649395555_3386014.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654415/ecommerce/souledstore/1649395555/1649395555_3236461.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654404/ecommerce/souledstore/1649395555/1649395555_6491538.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654391/ecommerce/souledstore/1649395555/1649395555_8612497.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654376/ecommerce/souledstore/1649395555/1649395555_4267573.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649395555_3386014.jpg\",\"1649395555_3236461.jpg\",\"1649395555_6491538.jpg\",\"1649395555_8612497.jpg\",\"1649395555_4267573.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "superman-logo-mens-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "195169",
+    "productName": "Deivee: Power Up",
+    "artist": {
+      "name": "Deivee by Milind Soman",
+      "slug": "deivee-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 799.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 39,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 7750,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654468/ecommerce/souledstore/1657893897/1657893897_1304163.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654484/ecommerce/souledstore/1657893897/1657893897_9451195.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654455/ecommerce/souledstore/1657893897/1657893897_9858264.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654443/ecommerce/souledstore/1657893897/1657893897_9467168.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1657893897_9467168.jpg\",\"1657893897_9858264.jpg\",\"1657893897_1304163.jpg\",\"1657893897_9451195.jpg\",\"1662552054_5588007.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "deivee-power-up-raglan-t-shirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "186682",
+    "productName": "Superman: Logo",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 799.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 17,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 7825,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664655100/ecommerce/souledstore/1649395491/1649395491_2845113.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655084/ecommerce/souledstore/1649395491/1649395491_1586477.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655076/ecommerce/souledstore/1649395491/1649395491_7945206.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655061/ecommerce/souledstore/1649395491/1649395491_3187347.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655000/ecommerce/souledstore/1649395491/1649395491_1499958.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649395491_1499958.jpg\",\"1649395491_3187347.jpg\",\"1649395491_7945206.jpg\",\"1649395491_1586477.jpg\",\"1649395491_2845113.jpg\",\"1662551747_8266992.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier":
+      "tss-athletic-dept-superman-logo-mens-performance-essential-tshirt",
+    "tiptiles": null
+  },
+  {
+    "productId": "186576",
+    "productName": "Solids: Black",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Vests"
+    },
+    "basePrice": 799.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 5,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 699.0,
+    "sortOrder": 7960,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664655135/ecommerce/souledstore/1649394378/1649394378_7458839.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655143/ecommerce/souledstore/1649394378/1649394378_1231961.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655155/ecommerce/souledstore/1649394378/1649394378_2655096.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655167/ecommerce/souledstore/1649394378/1649394378_3889396.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655178/ecommerce/souledstore/1649394378/1649394378_2864339.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655194/ecommerce/souledstore/1649394378/1649394378_4066349.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649394378_7458839.jpg\",\"1649394378_1231961.jpg\",\"1649394378_2655096.jpg\",\"1649394378_3889396.jpg\",\"1649394378_2864339.jpg\",\"1649394378_4066349.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "tss-athletic-dept-solids-black-mens-performance-vest",
+    "tiptiles": null
+  },
+  {
+    "productId": "184116",
+    "productName": "Solids: Blue Green Ombre (Active Wear)",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Performance Jerseys"
+    },
+    "basePrice": 749.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 10,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 649.0,
+    "sortOrder": 8170,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664655292/ecommerce/souledstore/1641896848/1641896848_2800629.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655247/ecommerce/souledstore/1641896848/1641896848_2253880.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655234/ecommerce/souledstore/1641896848/1641896848_7983344.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655217/ecommerce/souledstore/1641896848/1641896848_1701430.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1646391144_1634042.jpg\",\"1641896848_1701430.jpg\",\"1641896848_7983344.jpg\",\"1641896848_2253880.jpg\",\"1641896848_2800629.jpg\",\"1642076561_2201053.jpg\",\"1662553161_9409607.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "solids-blue-green-ombre-active-wear",
+    "tiptiles": null
+  },
+  {
+    "productId": "188935",
+    "productName": "Solids: Blue Green Ombre",
+    "artist": {
+      "name": "The Souled Store",
+      "slug": "the-souled-store-originals"
+    },
+    "category": {
+      "name": "Men Performance Essential Drop Cut T-Shirts"
+    },
+    "basePrice": 899.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 1,
+    "prodType": 3,
+    "offerPrice": 0.0,
+    "exclusivePrice": 749.0,
+    "sortOrder": 8270,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664644717/ecommerce/souledstore/1649394533/1649394533_5457636.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664644733/ecommerce/souledstore/1649394533/1649394533_3641404.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645855/ecommerce/souledstore/1649394533/1649394533_1996849.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664645868/ecommerce/souledstore/1649394533/1649394533_1688283.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649936763_9672172.jpg\",\"1649394533_5457636.jpg\",\"1649394533_3641404.jpg\",\"1649394533_1996849.jpg\",\"1649394533_1688283.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "solids-hues-ombre-mens-performance-essential-drop-cut-tshirts",
+    "tiptiles": null
+  },
+  {
+    "productId": "182216",
+    "productName": "Superman: Man Of Steel",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Tank Tops"
+    },
+    "basePrice": 699.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 4,
+    "prodType": 3,
+    "offerPrice": 599.0,
+    "exclusivePrice": 499.0,
+    "sortOrder": 9050,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664655315/ecommerce/souledstore/1650262851/1650262851_9719854.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655344/ecommerce/souledstore/1650262851/1650262851_8245253.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655356/ecommerce/souledstore/1650262851/1650262851_1929001.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664655365/ecommerce/souledstore/1650262851/1650262851_1613191.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1649929740_2719513.jpg\",\"1650262851_9719854.jpg\",\"1650262851_8245253.jpg\",\"1650262851_1929001.jpg\",\"1650262851_1613191.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "superman-man-of-steel-polyester-tank-tops",
+    "tiptiles": null
+  },
+  {
+    "productId": "190187",
+    "productName": "Batman: The Dark Knight (Camo)",
+    "artist": {
+      "name": "DC Comics\u0099",
+      "slug": "dc-justice-league-official-merchandise"
+    },
+    "category": {
+      "name": "Men Performance Essential T-Shirts"
+    },
+    "basePrice": 999.0,
+    "genderType": 1,
+    "stock": 0,
+    "prodQty": 23,
+    "prodType": 3,
+    "offerPrice": 649.0,
+    "exclusivePrice": 549.0,
+    "sortOrder": 5745,
+    "images":
+      "https://res.cloudinary.com/cloud-lib/image/upload/v1664654860/ecommerce/souledstore/1646721049/1646721049_1388151.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654850/ecommerce/souledstore/1646721049/1646721049_8054411.jpg;https://res.cloudinary.com/cloud-lib/image/upload/v1664654838/ecommerce/souledstore/1646721049/1646721049_7651997.jpg",
+    "imagesNew":
+      "{\"unisex\":[],\"male\":[\"1652862844_3032831.jpg\",\"1646721049_1388151.jpg\",\"1646721049_8054411.jpg\",\"1646721049_7651997.jpg\",\"1662551932_3864509.jpg\"],\"female\":[]}",
+    "extraPrice": 0.0,
+    "isPrintable": false,
+    "jitValue": "REGULAR",
+    "identifier": "batman-the-dark-knight-camo-men-performance-essential-tshirts",
+    "tiptiles": null
+  }
+];
+
+categoryRequest = [
+  {
+  "identifier": "shirts_women",
+  "name": "Shirts for Her"
+},{
+  "identifier": "shorts_men",
+  "name": "Shorts for Him"
+},{
+  "identifier": "shirts_men",
+  "name": "Shirts for Him"
+},{
+  "identifier": "shorts_women",
+  "name": "Shorts for Her"
+}
+]
